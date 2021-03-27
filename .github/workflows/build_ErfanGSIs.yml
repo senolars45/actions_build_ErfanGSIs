@@ -24,8 +24,8 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-       - name: Checkoutt
-         uses: actions/checkoutt@master
+       - name: Checkout
+         uses: actions/checkout@master
        
        - name: Clean Up
          run: |
